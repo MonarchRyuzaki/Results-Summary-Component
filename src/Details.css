@@ -1,0 +1,26 @@
+.comp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 90vw;
+    max-width: 400px;
+}
+
+.number{
+    margin-left: auto;
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+
+.by-100{
+    color: gray;
+    margin-left: 4px;
+}
+
+.topic{
+    margin-left: 10px;
+}

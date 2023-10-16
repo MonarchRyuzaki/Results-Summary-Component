@@ -1,0 +1,20 @@
+main {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(241, 72%, 46%, 0);
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  main{
+    flex-direction: row;
+    height: 100vh;
+  }
+  .App{
+    background-color: hsl(221, 100%, 96%);
+  }
+}

@@ -1,0 +1,77 @@
+.result-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180deg,
+            hsl(252deg 100% 67%) 0%,
+            hsl(247deg 91% 61%) 20%,
+            hsl(241deg 81% 54%) 100%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100vw;
+    padding: 30px;
+    max-width: 400px;
+}
+
+.your-result {
+    color: hsl(241, 100%, 89%);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.marks {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+  180deg,
+  hsl(256deg 72% 46%) 0%,
+  hsl(250deg 70% 50%) 50%,
+  hsl(241deg 81% 54%) 100%
+);
+}
+
+.i-got {
+    color: hsl(0, 0%, 100%);
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.out-of {
+    color: hsl(241, 100%, 89%, 0.6);
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+}
+
+.grade{
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.comparison{
+    color: hsl(241, 100%, 89%);
+    font-size: 16px;
+    text-align: center;
+}
+
+@media (min-width: 900px) {
+    .result-component{
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 0px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+}
